@@ -1,0 +1,145 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+.logo{
+    padding-left: 50px;
+    width: 70px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar > a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding-right: 8px;
+    margin-right: 25px;
+}
+video {
+    width: 100%;
+    height: auto;
+}
+.container-about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding-top: 150px;
+
+}
+.image-about img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.container-description h1{
+    color: #caa880;
+
+}
+.container-description p{
+    color:#3b4964;
+    text-align: justify;
+
+}
+@media screen and (max-width: 700px){
+    .container-about{
+        display: inherit;
+        padding: 0;
+    }
+    .container-description{
+        font-size: 18px;
+    }
+    .image-about img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 487px){
+    .navbar a{
+        padding:0;
+        margin-right: 2px;
+        font-size: 15px;
+    }
+    .logo{
+        padding: 0;
+    }
+}
+/*Services*/
+#services h1{
+    color: #caa880;
+    font-size: 40px;
+    text-align: center;
+    margin-top:90px;
+    font-weight: 700;
+    margin-bottom: 90px;
+}
+h2{
+    color: #caa880;
+    font-size: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    text-align: center;
+}
+.grid-item>p {
+    color: #3b4964;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+img{
+    width: 70px;
+}
+
+.grid-item {
+    padding: 20px;
+}
+@media screen and (max-width:600px){
+.grid-container{
+    padding:0;
+    display: inline-block;
+}
+}
+#container-image-text{
+    background-image: url("Images/medi-3.jpg");
+    max-width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.text{
+    text-align:center;
+}
+@media screen and (max-width: 480px){
+    .text{
+        font-size: 20px;
+    }
+
+}
+/*contact*/
+.column{
+    margin-left: 15px;
+}
+a{
+    text-decoration: none;
+
+}
+.copyright{
+    text-align: center;
+    font-size: 12px;
+}
